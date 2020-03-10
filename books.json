@@ -1,0 +1,52 @@
+{
+  "books":
+  [
+    {
+      "title": "The Catcher in the Rye",
+      "author": "J.D Salinger",
+      "coverImage": "img/CatcherCover.jpg",
+      "summary": "The novel details two days in the life of 16-year-old Holden Caulfield after he has been expelled from prep school.
+      Confused and disillusioned, Holden searches for truth and rails against the “phoniness” of the adult world.",
+      "reviews":
+      [
+        {"firstReview":"Amazing book! - New York Times"},
+        {"secondReview":"A true classic American novel - Los Angeles Times"},
+        {"thirdReview":"Fascinating novel with so many great aspects and meanings to it! - Chicago Times"}
+
+        ]
+      },
+
+      {
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "coverImage": "img/gatsby.jpeg",
+        "summary": "Set in Jazz Age New York, the novel tells the tragic story of Jay Gatsby, a self-made millionaire, and his pursuit of Daisy Buchanan,
+        a wealthy young woman whom he loved in his youth.",
+        "reviews":
+        [
+          {"firstReview":"Great representation of the era and overall amazing novel - New York Times"},
+          {"secondReview":"I could read this book over and over again, very enjoyable - Los Angeles Times"},
+          {"thirdReview":"This is the true American novel - Chicago Times"}
+
+          ]
+        },
+
+        {
+          "title": "To Kill a Mockingbird",
+          "author": "Harper Lee",
+          "coverImage": "img/mockingbird.jpeg",
+          "summary": "Scout Finch lives with her brother, Jem, and their widowed father, Atticus, in the sleepy Alabama town of Maycomb. Maycomb is suffering through
+          the Great Depression, but Atticus is a prominent lawyer and the Finch family is reasonably well off in comparison to the rest of society. One summer, Jem and Scout befriend a
+          boy named Dill, who has come to live in their neighborhood for the summer, and the trio acts out stories together. Eventually, Dill becomes fascinated with the spooky house on their
+          street called the Radley Place.",
+          "reviews":
+          [
+            {"firstReview":"Lee did a great job with this one - New York Times"},
+            {"secondReview":"So many different things within the novel, I find something new everytime I read it again! - Los Angeles Times"},
+            {"thirdReview":"One of my personal favorites - Chicago Times"}
+
+            ]
+          }
+  ]
+
+}
