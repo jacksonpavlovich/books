@@ -13,11 +13,11 @@ function loadBooks() {
   xhhtp.open("GET", "books.json", true);
   xhttp.send();
 }
-function showBooks(booksObj, x) {
-  var book = bookObj.books[x];
-  var titleID = "book" + x + "Title";
-  var summaryID = "book" + x + "Summary";
-  var coverID = "book" + x + "Cover";
+function showBooks(booksObj, i) {
+  var book = bookObj.books[i];
+  var titleID = "book" + i + "Title";
+  var summaryID = "book" + i + "Summary";
+  var coverID = "book" + i + "Cover";
   document.getElementById(titleID).innerHTML = book.title;
   document.getElementById(summaryID).innerHTML = book.summary;
   document.getElementById(coverID).src = book.coverImage;
