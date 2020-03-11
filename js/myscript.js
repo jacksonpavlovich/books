@@ -10,7 +10,7 @@ function loadBooks() {
       }
     }
   };
-  xhhtp.open("GET", "books.json", true);
+  xhttp.open("GET", "books.json", true);
   xhttp.send();
 }
 function showBooks(booksObj, i) {
