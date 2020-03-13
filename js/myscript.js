@@ -14,7 +14,7 @@ function loadBooks() {
   xhttp.send();
 }
 function showBooks(booksObj, i) {
-  var book = bookObj.books[i];
+  var book = booksObj.books[i];
   var titleID = "book" + i + "Title";
   var summaryID = "book" + i + "Summary";
   var coverID = "book" + i + "Cover";
